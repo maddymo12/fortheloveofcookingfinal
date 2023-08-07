@@ -1,0 +1,238 @@
+body {
+width:900px;
+    margin-left: auto;
+   margin-right: auto;
+    background-color:#451A67;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: grid;
+
+    
+}
+
+
+header {
+    width:900px;
+    margin-left: auto;
+     margin-right: auto;
+    background-color:#521936;
+    padding: inherit;
+    text-align: center;
+    grid-column: 1/2; grid-row: 1/2;
+    
+
+    border: solid;
+    border-color: #6CE4A6;
+
+}
+
+
+main {
+    width:900px;
+    margin-left: auto;
+  margin-right: auto;
+    background-color:#ebe6e1;
+    padding: inherit;
+     display: grid;
+    align-content: center;
+
+
+  
+}
+
+img {
+  border-radius: 8px;
+    align-content: center;
+      display: grid;
+    height: 300px;
+        width: 300px;
+      padding: inherit;
+align-self: center;
+}
+
+
+
+nav {
+    width:900px;
+    margin-left: auto;
+  margin-right: auto;
+    background-color:#670769;
+      padding: 5px;
+      grid-column: 1/2; grid-row: 2/4;
+}
+
+footer {
+
+    width:900px;
+    margin-left: auto;
+   margin-right: auto;
+    background-color:#fb9062;
+    padding: inherit;
+    text-align: center;
+    
+     border: solid;
+    border-color: #6CE4A6;
+      
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+    font font-size: 19px;
+}
+
+
+h1 { 
+    font-family:'Caveat', Handwriting;  
+     color: #b36b00;
+    font-size: 40px;
+
+   
+ }
+
+h2 { 
+  font-family:'Caveat', Handwriting;  
+     color: #8A0F1C;
+}
+
+h3 { 
+ font-family:'Caveat', Handwriting;
+    color: #145252;
+     font-size: 22px;
+  
+}
+
+h4 { 
+     font-family:'Caveat', Handwriting; 
+    font-size: 25px;
+   
+ }
+
+h5 { 
+     font-family:'Caveat', Handwriting; 
+     color: #660066;
+       font-size: 27px;
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+     font-family: 'Dosis', sans-serif;
+}
+
+
+li {
+  float: left;
+
+  margin: 10px;
+  padding: 10px;
+     
+     font-family: 'Dosis', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+li a:hover {
+  background-color:#6CE4A6;
+}
+
+        @font-face {
+font-family : 'Dosis';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/arimo/v28/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrE.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Caveat';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZA.ttf) format('truetype');
+}
+   
+
+a:link {
+  color: #F6F6D5;
+     text-decoration: none;
+}
+
+
+a:visited {
+  color: #8EE5EB;
+     text-decoration: none;
+      text-decoration: underline;
+}
+
+
+a:hover {
+  color: #000000;
+      text-decoration: underline;
+}
+
+
+a:active {
+  color: #0E532F;
+      text-decoration: underline;
+}
+
+
+form{
+   
+      
+margin: 0 auto;
+    border: 1px solid #cecfd5;
+padding: 10px 15px;
+     grid-column: 1/4; grid-row: 3/4;
+    padding: inherit;
+align-content: center;
+    text-align: center;
+}
+
+
+table {
+     grid-column: 2/3; grid-row: 2/4
+border-collapse: collapse;
+margin: 0 auto;
+    padding: 10px 15px;
+}
+th,
+td {
+border: 1px solid #cecfd5;
+padding: 10px 15px;
+}
+tbody tr:nth-child(even) {
+background: #f0f0f2;
+}
+
+
+.container {
+  border: 1px solid #cecfd5;
+    margin: 0 auto;
+padding: 10px 15px;
+  
+    padding: inherit;
+align-content: center;
+    text-align: center;
+}
+
+
+
+ol {
+  float: left;
+
+  margin: 10px;
+  padding: 10px;
+     
+     font-family: 'Dosis', sans-serif;
+}
